@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>AHM Science Academy</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:wght@500;700;800&family=Instrument+Sans:wght@400;500;600&display=swap" rel="stylesheet">
+<style>
+:root{--bg:#f4f8f6;--ink:#14231f;--muted:#4b5f59;--panel:#e3eee9;--deep:#12352f;--deep-ink:#eaf4f0;--accent:#f2b705;--line:#c4d6cf;
+box-sizing:border-box;padding-top:env(safe-area-inset-top,0px);padding-bottom:env(safe-area-inset-bottom,0px)}
+@media (prefers-color-scheme:dark){:root:not([data-theme="light"]){--bg:#0e1a17;--ink:#e6f0ec;--muted:#9db4ac;--panel:#162823;--deep:#1c4a41;--deep-ink:#eaf4f0;--line:#2b423b}}
+:root[data-theme="dark"]{--bg:#0e1a17;--ink:#e6f0ec;--muted:#9db4ac;--panel:#162823;--deep:#1c4a41;--deep-ink:#eaf4f0;--line:#2b423b}
+html{scroll-padding-top:env(safe-area-inset-top,0px)}
+*{box-sizing:border-box}
+body{margin:0;background:var(--bg);color:var(--ink);font:400 1.05rem/1.65 "Instrument Sans",system-ui,sans-serif}
+h1,h2,h3{font-family:"Bricolage Grotesque","Instrument Sans",system-ui,sans-serif;line-height:1.1;margin:0}
+.wrap{max-width:1040px;margin:0 auto;padding:0 22px}
+header{display:flex;justify-content:space-between;align-items:center;padding:18px 0}
+.logo{font:800 1.25rem "Bricolage Grotesque",sans-serif}
+.btn{display:inline-block;background:var(--accent);color:#1b1500;font-weight:600;padding:12px 22px;border-radius:8px;text-decoration:none}
+.btn:focus-visible,a:focus-visible{outline:3px solid var(--ink);outline-offset:3px}
+.hero{padding:40px 0 56px}
+.hero h1{font-size:clamp(2.2rem,6vw,4.2rem);font-weight:800;max-width:15ch}
+.hero p{max-width:56ch;color:var(--muted);font-size:1.15rem;margin:20px 0 28px}
+.steps{display:flex;align-items:flex-end;gap:6px;margin-top:44px;overflow-x:auto;padding-bottom:4px}
+.step{flex:1 0 62px;background:var(--deep);color:var(--deep-ink);border-radius:8px 8px 0 0;padding:10px 8px;font-weight:600;font-size:.9rem;text-align:center;display:flex;flex-direction:column;justify-content:flex-end}
+.step b{font:800 1.5rem "Bricolage Grotesque",sans-serif;display:block}
+.step.adv{background:var(--accent);color:#1b1500}
+.cap{color:var(--muted);font-size:.9rem;margin-top:10px}
+section{padding:56px 0}
+section.alt{background:var(--panel)}
+h2{font-size:clamp(1.7rem,4vw,2.5rem);font-weight:700;margin-bottom:14px;max-width:22ch}
+.lead{max-width:62ch;color:var(--muted)}
+.grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(240px,1fr));gap:18px;margin-top:30px}
+.box{border-left:4px solid var(--accent);padding:4px 0 4px 16px}
+.box h3{font-size:1.3rem;margin-bottom:6px}
+.box p{margin:0;color:var(--muted)}
+.exam{display:flex;gap:14px;flex-wrap:wrap;margin-top:26px}
+.exam div{flex:1 1 200px;background:var(--deep);color:var(--deep-ink);border-radius:10px;padding:20px}
+.exam b{font:800 1.9rem "Bricolage Grotesque",sans-serif;display:block}
+.exam span{opacity:.85;font-size:.95rem}
+.copy{max-width:64ch;font-size:1.15rem}
+.contact{background:var(--deep);color:var(--deep-ink)}
+.contact h2{max-width:none}
+.contact p{max-width:52ch;opacity:.9}
+footer{padding:22px 0;color:var(--muted);font-size:.9rem}
+</style>
+</head>
+<body>
+<div class="wrap">
+<header><div class="logo">AHM Science Academy</div><a class="btn" href="#contact">Enquire about admission</a></header>
+<div class="hero">
+<h1>Every level, one focused place to learn.</h1>
+<p>From Grade 5 through A-Level, with dedicated preparation for ECAT, MDCAT and NTS, taught in furnished, air-conditioned rooms designed so students can concentrate and perform.</p>
+<a class="btn" href="#contact">Book a visit</a>
+<div class="steps" role="img" aria-label="Levels offered: Grade 5 through Grade 12, then O-Level and A-Level">
+<div class="step" style="height:80px"><span>Grade</span><b>5</b></div>
+<div class="step" style="height:96px"><span>Grade</span><b>6</b></div>
+<div class="step" style="height:112px"><span>Grade</span><b>7</b></div>
+<div class="step" style="height:128px"><span>Grade</span><b>8</b></div>
+<div class="step" style="height:144px"><span>Grade</span><b>9</b></div>
+<div class="step" style="height:160px"><span>Grade</span><b>10</b></div>
+<div class="step" style="height:176px"><span>Grade</span><b>11</b></div>
+<div class="step" style="height:192px"><span>Grade</span><b>12</b></div>
+<div class="step adv" style="height:216px"><b>O</b>Level</div>
+<div class="step adv" style="height:240px"><b>A</b>Level</div>
+</div>
+<div class="cap">One academy, one continuous path from Grade 5 to A-Level.</div>
+</div>
+</div>
+
+<section class="alt"><div class="wrap">
+<h2>Academic breadth: your child never has to change academies</h2>
+<p class="lead">Students can join at Grade 5 and stay through to A-Level, learning with teachers who know their progress. Families with children at different stages can bring them all to one place.</p>
+<div class="grid">
+<div class="box"><h3>Grade 5 to Grade 12</h3><p>Steady subject foundations in the middle years, and focused support through the senior grades.</p></div>
+<div class="box"><h3>O-Level and A-Level</h3><p>Advanced qualifications covered alongside school-level classes, so the same academy supports the jump in depth.</p></div>
+<div class="box"><h3>Competitive exam preparation</h3><p>Specialised programs for the tests that decide university admission.</p></div>
+</div>
+<div class="exam">
+<div><b>ECAT</b><span>Engineering college admission preparation</span></div>
+<div><b>MDCAT</b><span>Medical college admission preparation</span></div>
+<div><b>NTS</b><span>Test preparation for NTS applicants</span></div>
+</div>
+</div></section>
+
+<section><div class="wrap">
+<h2>A learning environment built for focus</h2>
+<p class="lead">Comfort is not a luxury in a classroom. A cool, well-furnished room is what lets a student stay attentive through a long lesson or a full practice paper.</p>
+<div class="grid">
+<div class="box"><h3>Furnished classrooms</h3><p>Proper seating and desks for long sessions of note-taking and problem-solving.</p></div>
+<div class="box"><h3>Air-conditioned rooms</h3><p>A steady, comfortable temperature so heat is never the reason concentration slips.</p></div>
+<div class="box"><h3>Furnished study spaces</h3><p>Quiet places to revise, practise and work through difficult topics between classes.</p></div>
+<div class="box"><h3>Fans throughout</h3><p>Fresh air circulation in every space, for comfort that keeps students alert.</p></div>
+</div>
+</div></section>
+
+<section class="alt"><div class="wrap">
+<h2>Why AHM Science Academy</h2>
+<p class="copy">At AHM Science Academy, we teach Grade 5 through Grade 12, O-Level and A-Level, with dedicated preparation for ECAT, MDCAT and NTS, so your child can grow with one academy from their first serious science class to university entry. Our furnished classrooms, air-conditioned rooms, furnished study spaces and fans are there for one reason: students learn and perform best when they are comfortable and focused.</p>
+</div></section>
+
+<section class="contact" id="contact"><div class="wrap">
+<h2>Visit the academy</h2>
+<p>Tell us your child's grade or the exam they are preparing for, and we will help you find the right program. [Add phone number, address and timings here.]</p>
+<a class="btn" href="#contact">Enquire about admission</a>
+</div></section>
+
+<div class="wrap"><footer>&copy; AHM Science Academy</footer></div>
+</body>
+</html>
